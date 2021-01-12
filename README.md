@@ -1,2 +1,2 @@
-# Guess-the-number
+# guess-the-number
 An IT assignment
