@@ -8,12 +8,13 @@
 <body>
     <h> Guess The Number</h>
     <script>
-        let Num = math.floor(math.random()*11);
+        let num = Math.floor(Math.random()*11);
         let getIt= false;
         let guess= prompt (" guess a number mbetween 1 to 10");
         let numGuess=0;
        
             while( getIt===false){
+                  numGuess++;
                
                 if(num===guess){
                     
