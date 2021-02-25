@@ -6,13 +6,13 @@
 	<script>
         let num = Math.floor(Math.random() * 101);
 
-        let guess = prompt("guess a number between 1 and 100");
+        let guess = prompt("guess a number between 1 and 10");
         
         let gotIt = false;
         let numGuesses = 0;
-        if (guess< 1 || guess > 100) 
+        if (guess< 1 || guess > 10) 
             {
-             prompt("0 OR GREATER THAN 100 is not valid input");
+             prompt("0 OR GREATER THAN 10 is not valid input");
             }
    else {
         while(gotIt===false){
